@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url(/components/avtar.css);
+@import url(/components/badge.css);
 
 :root {
     --cta-color: #05051a;
