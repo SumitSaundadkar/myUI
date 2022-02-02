@@ -163,10 +163,10 @@
       background-color:  var(--error-color);
       border-radius: 50%;
       margin-top: -1.4em;
-      margin-left: 3.5rem;
+      margin-left: 4.5rem;
   }
    .status-online{
-      border: 2px solid ;
+      border: 2px  ;
       background-color: var(--success-color);
 
   }
