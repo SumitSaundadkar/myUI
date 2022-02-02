@@ -154,7 +154,17 @@
     margin-top: 1rem;
     display: flex;
     justify-content: center;
+    
   }
+  /* style="width: 766px; height: 502px; border:0; transform: scale(1); overflow:hidden;" */
+  iframe{
+    width: 766px; 
+    height: 502px;
+     border:0; 
+     transform: scale(1); 
+     overflow:hidden
+  }
+
 
   .status{
       width: 1rem;
