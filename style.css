@@ -164,7 +164,7 @@
       margin-top: -1.4em;
       margin-left: 3.5rem;
   }
-  .status-online{
+   .status-online{
       border: 2px solid green;
       background-color: green;
 
@@ -173,8 +173,8 @@
       border: 2px solid rgb(15, 17, 15);
       background-color: rgb(200, 214, 200);
 
-  }
-  
+  } 
+   
   
   /* Container for every component end*/ ;
   
