@@ -2,7 +2,7 @@
    display: flex;
     width: 8rem;
     height: 8rem;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center; 
     margin: 1rem 1rem;
     margin-top: 1rem;
@@ -13,7 +13,7 @@
     height: 2rem;
     text-align: center;
     font-size: 2rem;
-    background-color: var(--error-color);
+    background-color: var( --offline-color);
     position: absolute;
     margin: -1rem -1rem;
     border-radius: 50%;
@@ -24,6 +24,17 @@
     text-align: center;
     font-size: 2rem;
     background-color: var(--error-color);
+    position: absolute;
+    margin: -1rem -1rem;
+    border-radius: 50%;
+
+  }
+  .txt-circle-home-cart-msg{
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(--success-color);
     position: absolute;
     margin: -1rem -1rem;
     border-radius: 50%;
