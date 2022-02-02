@@ -2,10 +2,10 @@
 @import url(/components/avtar.css);
 
 :root {
-    --cta-color: #0e0e0f;
+    --cta-color: #05051a;
     --hover-bg: #8484c7;
     --primary-color: #161617;
-    --secondary-color: #5d585d;
+    --secondary-color: #441744;
     --success-color: #3c8855;
     --warning-color: #f5c118;
     --error-color: #dc3545;
