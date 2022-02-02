@@ -1,18 +1,22 @@
 .avatar-sm img {
     width: 6rem;
     border-radius: 50%;
+    border: 2px solid var(--cta-color);
   }
   .avatar-md img {
     width: 7rem;
     border-radius: 50%;
+    border: 2px solid var(--cta-color);
   }
   .avatar-l img {
     width: 7rem;
     border-radius: 50%;
+    border: 2px solid var(--cta-color);
   }
   .avatar-xl img {
     width: 8rem;
     border-radius: 50%;
+    border: 2px solid var(--cta-color);
   }
  
   
