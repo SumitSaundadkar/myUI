@@ -8,11 +8,12 @@
     --hover-bg: #8484c7;
     --primary-color: #161617;
     --secondary-color: #441744;
-    --success-color: #3c8855;
+    --success-color: #7eb691;
     --warning-color: #f5c118;
     --error-color: #dc3545;
-    --info-color: #5dcaf0;
-    --offline-color:#9dbac5;
+    --info-color: #77acbe;
+    --offline-color:#d4dde08c;
+    --primary-font-colour: #fff;
   }
   
   * {
