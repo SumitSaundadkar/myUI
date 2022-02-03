@@ -154,6 +154,10 @@
     margin-top: 1rem;
     padding: 1rem;
   }
+  .element{
+    display: flex;
+    margin-top: 1rem;
+  }
   .code-container {
     margin-top: 1rem;
     display: flex;
