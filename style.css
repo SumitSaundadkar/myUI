@@ -164,7 +164,7 @@
     justify-content: center;
     
   }
-  /* style="width: 766px; height: 502px; border:0; transform: scale(1); overflow:hidden;" */
+  
   iframe{
     width: 766px; 
     height: 502px;
@@ -183,17 +183,22 @@
       border-radius: 50%;
       margin-top: -1.4em;
       margin-left: 4.5rem;
+
+     
+     
+
       color: var(--cta-color);
       font-weight: 600;
+
   }
    .status-online{
-      border: 2px  ;
+      border: 2px solid var(--primary-color)  ;
       background-color: var(--success-color);
 
   }
   .status-online-offline{
-      border: 2px solid var(--primary-color) ;
-      background-color: var(--offline-color);
+      border: 1px solid var(--primary-color) ;
+      background-color: var( --hover-bg);
 
   } 
    
