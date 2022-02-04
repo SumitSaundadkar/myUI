@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url(/components/avtar.css);
+@import url(/components/badge.css);
 
 :root {
     --cta-color: #05051a;
@@ -153,6 +154,10 @@
     margin-top: 1rem;
     padding: 1rem;
   }
+  .element{
+    display: flex;
+    margin-top: 1rem;
+  }
   .code-container {
     margin-top: 1rem;
     display: flex;
@@ -178,8 +183,13 @@
       border-radius: 50%;
       margin-top: -1.4em;
       margin-left: 4.5rem;
+
      
      
+
+      color: var(--cta-color);
+      font-weight: 600;
+
   }
    .status-online{
       border: 2px solid var(--primary-color)  ;
