@@ -185,17 +185,27 @@
       border-radius: 50%;
       margin-top: -1.4em;
       margin-left: 4.5rem;
+
+     
+     
+
       color: var(--cta-color);
       font-weight: 600;
+
   }
    .status-online{
-      border: 2px  ;
+      border: 2px solid var(--primary-color)  ;
       background-color: var(--success-color);
 
   }
   .status-online-offline{
+
       border: 2px solid var(--primary-color) ;
       background-color: var(--hover-bg);
+
+      border: 1px solid var(--primary-color) ;
+      background-color: var( --hover-bg);
+
 
   } 
    
