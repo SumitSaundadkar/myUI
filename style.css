@@ -195,7 +195,7 @@
   }
   .status-online-offline{
       border: 2px solid var(--primary-color) ;
-      background-color: var(--offline-color);
+      background-color: var(--hover-bg);
 
   } 
    
