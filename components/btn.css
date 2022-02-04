@@ -1,0 +1,65 @@
+.btn{
+    font-size: 1rem;
+    border-radius:10px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 10px;
+    margin:5px;
+    cursor: pointer;
+  }
+  .btntype{
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      background-color: var(--offline-color);
+      padding: 10px;
+      margin: 10px;
+      align-items: center;
+      justify-content: space-around;
+     border-radius: 10px;
+
+  }
+  .btn-primary{
+    background-color: var(--btn-primary-color);
+  }
+  .btn-secondary{
+    background-color: var(--btn-secondary-color);
+  }
+  .btn-danger{
+    background-color: var(--error-color);
+  }
+  .btn-warning{
+    background-color: var(-warning-color);
+  }
+  .btn-info{
+    background-color: var( --info-color);
+  }
+  .btn-success{
+    background-color: var(--success-color);
+  }
+  .btn-outline-primary{
+    border: 1px solid var(--success-color);
+  }
+  .btn-outline-primary:hover{
+    background-color: var(--success-color);
+  }
+  .btn-outline-secondary{
+    border: 1px solid var(--btn-secondary-color);
+  }
+  .btn-outline-secondary:hover{
+    background-color: var(--btn-secondary-color);
+  }
+  .btn-outline-danger{
+    border: 1px solid var(--error-color);
+  }
+  .btn-outline-danger:hover{
+    background-color: var(--error-color);
+  }
+  .fcc-btn {
+    background-color: var(--success-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+  }
