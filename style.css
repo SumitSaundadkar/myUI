@@ -2,16 +2,19 @@
 @import url(/components/avtar.css);
 @import url(/components/badge.css);
 
+@import url(/components/alert.css);
 :root {
     --cta-color: #05051a;
     --hover-bg: #8484c7;
     --primary-color: #161617;
+    --success-color: #7eb691;
     --secondary-color: #441744;
-    --success-color: #3c8855;
+    --success-color: #7eb691;
     --warning-color: #f5c118;
     --error-color: #dc3545;
-    --info-color: #5dcaf0;
-    --offline-color:#9dbac5;
+    --info-color: #77acbe;
+    --offline-color:#d4dde08c;
+    --primary-font-colour: #fff;
   }
   
   * {
@@ -164,7 +167,7 @@
     justify-content: center;
     
   }
-  /* style="width: 766px; height: 502px; border:0; transform: scale(1); overflow:hidden;" */
+  
   iframe{
     width: 766px; 
     height: 502px;
@@ -183,17 +186,27 @@
       border-radius: 50%;
       margin-top: -1.4em;
       margin-left: 4.5rem;
+
+     
+     
+
       color: var(--cta-color);
       font-weight: 600;
+
   }
    .status-online{
-      border: 2px  ;
+      border: 2px solid var(--primary-color)  ;
       background-color: var(--success-color);
 
   }
   .status-online-offline{
+
       border: 2px solid var(--primary-color) ;
-      background-color: var(--offline-color);
+      background-color: var(--hover-bg);
+
+      border: 1px solid var(--primary-color) ;
+      background-color: var( --hover-bg);
+
 
   } 
   .number{
@@ -202,5 +215,6 @@
     margin: 3px;
     
   }
+
    
   
