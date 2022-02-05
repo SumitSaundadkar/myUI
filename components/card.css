@@ -1,0 +1,131 @@
+.vertical-card{
+    display: flex;
+    width: 80%;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    margin-left: 5rem;
+    
+  
+    
+  }
+  .card-bdg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 10px;
+    background: var(--primary-font-colour);;
+    box-shadow: 4px 4px 15px var(--box-shadow);
+    position : relative;
+    padding: 10px;
+    color: var(--cta-color);
+    margin:10px;
+  }
+  
+  .card-badge{
+    display: flex;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    background-color: var(--error-color);
+    top: 0;
+    left: 0;
+    color: var(--primary-font-colour);
+  
+  }
+ 
+  .cross-icon{
+    position: absolute;
+    top: 10px;
+    right:10px;
+   
+    border-radius: 50%;
+    
+  }
+  
+  .card .card__container{
+    padding : 2rem;
+    width: 100%;
+    height: 100%;
+    background: var(--cta-color);
+    border-radius: 1rem;
+  }
+  
+  .card .card__header{
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .card .card__body{
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  .price-originl{
+    text-decoration: line-through;
+    color: var(--cta-color);
+    font-size: small;
+    
+  }
+  .price-discount{
+    font-weight: 800; 
+  }
+  .offer{
+    color: var( --success-color);
+  }
+  .card-dismiss{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 10px;
+    background: var(--primary-font-colour);
+    box-shadow: 4px 4px 15px var(--box-shadow);
+    position : relative;
+    
+    margin: 10px;
+  
+  }
+  .card-simple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 10px;
+    background: var(--primary-font-colour);
+    box-shadow: 4px 4px 15px var(--box-shadow);
+    position : relative;
+    color: var(--btn-secondary-color);
+    margin: 10px;
+  
+  }
+  .extra-info{
+      margin-top: 10px;
+  }
+  h4{
+      margin: 10px;
+  }
+  button{
+      border: none;
+      background: none;
+  }
+  .cart-button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: var(--offline-color);
+      border-radius: 10px;
+  }
+  .cart-button:hover{
+      background-color: var(--success-color);
+
+  }
+  .fa-heart{
+      margin: 5px;
+  }
