@@ -32,7 +32,7 @@
     background-color: var(--error-color);
   }
   .btn-warning{
-    background-color: var(-warning-color);
+    background-color: var(--warning-color);
   }
   .btn-info{
     background-color: var( --info-color);
@@ -58,7 +58,7 @@
   .btn-outline-danger:hover{
     background-color: var(--error-color);
   }
-  .fcc-btn {
+  .link-btn {
     background-color: var(--success-color);
     border-radius: 10px;
     padding: 10px;
