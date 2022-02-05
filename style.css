@@ -2,6 +2,7 @@
 @import url(/components/avtar.css);
 @import url(/components/badge.css);
 @import url(/components/alert.css);
+@import url(/components/btn.css);
 
 @import url(/components/alert.css);
 :root {
@@ -16,6 +17,9 @@
     --info-color: #77acbe;
     --offline-color:#d4dde08c;
     --primary-font-colour: #fff;
+    --btn-primary-color:#007BFF;
+    --btn-secondary-color:#6C757D;
+    
   }
   
   * {
