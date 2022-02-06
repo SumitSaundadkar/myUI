@@ -137,6 +137,7 @@
     flex-direction: row;
     background-color: var(--primary-font-colour);
     box-shadow: 4px 4px 15px var(--box-shadow);
+    border-radius: 10px;
     }
     .hz-img{
      padding: 10px;
