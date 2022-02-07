@@ -6,10 +6,7 @@
     justify-content: center;
     padding: 10px 10px;
     margin-left: 5rem;
-    
-  
-    
-  }
+    }
   .card-bdg{
     display: flex;
     justify-content: center;
@@ -22,7 +19,7 @@
     position : relative;
     padding: 10px;
     color: var(--cta-color);
-    margin:10px;
+   
   }
   
   .card-badge{
@@ -41,10 +38,8 @@
     position: absolute;
     top: 10px;
     right:10px;
-   
-    border-radius: 50%;
-    
-  }
+   border-radius: 50%;
+   }
   
   .card .card__container{
     padding : 2rem;
@@ -61,7 +56,6 @@
   
   .card .card__body{
     font-family: 'Roboto', sans-serif;
-  
   }
   .price-originl{
     text-decoration: line-through;
@@ -85,10 +79,7 @@
     background: var(--primary-font-colour);
     box-shadow: 4px 4px 15px var(--box-shadow);
     position : relative;
-    
-    margin: 10px;
-  
-  }
+    }
   .card-simple{
     display: flex;
     justify-content: center;
@@ -100,9 +91,7 @@
     box-shadow: 4px 4px 15px var(--box-shadow);
     position : relative;
     color: var(--btn-secondary-color);
-    margin: 10px;
-  
-  }
+   }
   .extra-info{
       margin-top: 10px;
   }
@@ -124,8 +113,7 @@
   }
   .cart-button:hover{
       background-color: var(--success-color);
-
-  }
+    }
   .fa-heart{
       margin: 5px;
   }
@@ -154,19 +142,14 @@
      }
      .hz-heading{
        font-size: 20px;
-       
-     }
+    }
      .hz-subhead{
-       
-      
-       left: 6;
+      left: 6;
      }
      .price-discount{
      
       margin-top: 10px;
-      
-     
-     }
+    }
      .price-originl{
        text-decoration: line-through;
        font-size: small;
