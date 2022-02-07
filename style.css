@@ -156,6 +156,7 @@
   /* Container for every component start */
   .container {
     padding: 1rem;
+    
   }
   .inline {
     display: flex;
@@ -169,18 +170,20 @@
     margin-top: 1rem;
   }
   .code-container {
-    margin-top: 1rem;
+    margin-top: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     
   }
   
   iframe{
+   
     width: 40rem; 
-    height: 40rem;
+    height: 37rem;
     border:0; 
      transform: scale(1); 
-     overflow:hidden;
+   overflow: hidden;
      
   }
  .status{
