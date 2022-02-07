@@ -1,0 +1,44 @@
+
+ .input{
+     width: 80%;
+     padding: 10px;
+     height: 1rem;
+     
+ }
+.input_bar {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: var(--offline-color);
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+   border-radius: 10px;
+   }
+   .input-error{
+     border-color: red;
+     
+   
+   }
+   .input-warn{
+     border-color:yellow;
+    
+   
+   }
+   .input-bottom{
+    border: none;
+    border-bottom-style:solid;
+    
+   
+   }
+   .input-round{
+   border-radius: 10px;
+    
+   
+   }
+   .input-search{
+   border-radius: 10px;
+    
+   
+   }
