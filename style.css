@@ -5,6 +5,7 @@
 @import url(/components/btn.css);
 @import url(/components/card.css);
 @import url(/components/alert.css);
+@import url(/components/input.css);
 :root {
     --cta-color: #05051a;
     --hover-bg: #8484c7;
