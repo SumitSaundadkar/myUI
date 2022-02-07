@@ -174,13 +174,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
     
   }
   
   iframe{
-   
     width: 40rem; 
     height: 37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     border:0; 
      transform: scale(1); 
    overflow: hidden;
