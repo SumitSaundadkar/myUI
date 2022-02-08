@@ -3,8 +3,7 @@
      width: 80%;
      padding: 10px;
      height: 1rem;
-     
- }
+  }
 .input_bar {
     display: flex;
     flex-direction: row;
@@ -17,28 +16,18 @@
    border-radius: 10px;
    }
    .input-error{
-     border-color: red;
-     
-   
-   }
+     border-color:var(--error-color);
+  }
    .input-warn{
-     border-color:yellow;
-    
-   
-   }
+     border-color:var(--warning-color);
+  }
    .input-bottom{
     border: none;
     border-bottom-style:solid;
-    
-   
-   }
+  }
    .input-round{
    border-radius: 10px;
-    
-   
-   }
+  }
    .input-search{
    border-radius: 10px;
-    
-   
-   }
+  }
