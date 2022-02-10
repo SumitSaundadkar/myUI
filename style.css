@@ -6,6 +6,7 @@
 @import url(/components/card.css);
 @import url(/components/alert.css);
 @import url(/components/input.css);
+@import url(/components/images.css);
 :root {
     --cta-color: #05051a;
     --hover-bg: #8484c7;
@@ -223,6 +224,23 @@
     text-align: center;
     margin: 3px;
     
+  }
+
+  @media  screen and (max-width:480px){
+    .left-sidebar{
+      display:none;
+    }
+    .list-items{
+      display:none;
+    }
+  }
+  @media  screen and (max-width:700px){
+    .left-sidebar{
+      display:none;
+    }
+    .list-items{
+      display:none;
+    }
   }
 
    
