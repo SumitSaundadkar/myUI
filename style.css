@@ -7,6 +7,7 @@
 @import url(/components/alert.css);
 @import url(/components/input.css);
 @import url(/components/images.css);
+@import url(/components/text-utilities.css);
 :root {
     --cta-color: #05051a;
     --hover-bg: #8484c7;
