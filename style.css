@@ -8,6 +8,7 @@
 @import url(/components/input.css);
 @import url(/components/images.css);
 @import url(/components/text-utilities.css);
+@import url(/components/navigation.css);
 :root {
     --cta-color: #05051a;
     --hover-bg: #8484c7;

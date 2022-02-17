@@ -1,0 +1,24 @@
+.nav_items{
+    width: 80%;
+    height: 2rem;
+    background-color: var(--hover-bg);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav_list_item{
+    display: inline-block ;
+    margin: 10px;
+
+}
+.nav_brand_name{
+    font-size:1rem;
+    font-weight: 600;
+}
+.nav_input{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
