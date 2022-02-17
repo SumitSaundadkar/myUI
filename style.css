@@ -93,13 +93,11 @@
     width: 20%;
     box-sizing: border-box;
     border-right: 1px inset;
-    
     border-top-right-radius: 1rem;
   }
   .list-items {
     list-style: none;
     font-size: 1.5rem;
-    
     margin: auto 2rem;
     padding: 0rem;
   }
