@@ -1,4 +1,4 @@
-.nav_items{
+.nav-items{
     width: 80%;
     height: 2rem;
     background-color: var(--hover-bg);
@@ -8,16 +8,16 @@
     border-radius: 10px;
     padding: 10px;
 }
-.nav_list_item{
+.nav-list-item{
     display: inline-block ;
     margin: 10px;
 
 }
-.nav_brand_name{
+.nav-brand-name{
     font-size:1rem;
     font-weight: 600;
 }
-.nav_input{
+.nav-input{
     border: none;
     padding: 5px;
     border-radius: 5px;
