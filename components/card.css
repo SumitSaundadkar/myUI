@@ -117,6 +117,9 @@
   .fa-heart{
       margin: 5px;
   }
+  .fa-heart:hover{
+      color: var(--error-color);
+  }
 
   .hz-card{
     width: 30rem;
